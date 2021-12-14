@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "7569ca5d-e343-453f-ba9c-01a6bd34749b"
+        },
+        "name": {
+            "value": "nareshv"
+        },
+        "location": {
+            "value": "Central US"
+        },
+        "hostingPlanName": {
+            "value": "ASP-MyTest-99a7"
+        },
+        "serverFarmResourceGroup": {
+            "value": "MyTest"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "java"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "javaVersion": {
+            "value": "1.8"
+        },
+        "javaContainer": {
+            "value": "JAVA"
+        },
+        "javaContainerVersion": {
+            "value": "SE"
+        }
+    }
+}
