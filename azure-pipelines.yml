@@ -16,3 +16,9 @@ steps:
     action: 'Create Or Update Resource Group'
     templateLocation: 'Linked artifact'
     deploymentMode: 'Incremental'
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    action: 'Create Or Update Resource Group'
+    templateLocation: 'Linked artifact'
+    deploymentMode: 'Incremental'
